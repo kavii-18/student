@@ -11,7 +11,7 @@ const App = () => (
       <Route path="/add-student" element={<AddStudent />} />
       <Route path="/edit-student/:id" element={<EditStudent />} />
       {/* <Route path="*" element={<NotFound />} /> */}
-    </Routes>
+    </Routes>//
   </Router>
 );
 
